@@ -52,7 +52,7 @@ public class GameHandler : MonoBehaviour {
             healthTextTemp.text = "HEALTH: " + playerHealth;
 
             Text tokensTextTemp = tokensText.GetComponent<Text>();
-            tokensTextTemp.text = "GOLD: " + gotTokens;
+            tokensTextTemp.text = "COOKIES: " + gotTokens;
       }
 
       public void playerDies(){

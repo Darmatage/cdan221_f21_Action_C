@@ -31,11 +31,12 @@ public class EnemyMoveHit : MonoBehaviour {
               float DistToPlayer = Vector3.Distance(transform.position, target.position);
 
               if ((target != null) && (DistToPlayer <= attackRange)){
-                     transform.position = Vector2.MoveTowards (transform.position, target.position, speed * Time.deltaTime);
+				  Vector3 offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
+                     transform.position = Vector2.MoveTowards (transform.position, target.position + offsetAttack, speed * Time.deltaTime);
               }
        }
 
-       public void OnCollisionEnter2D(Collision2D collision){
+       public void OnTriggerEnter2D(Collider2D collision){
               if (collision.gameObject.tag == "Player") {
                      anim.SetBool("Attack", true);
                      gameHandler.playerGetHit(damage);
@@ -44,7 +45,7 @@ public class EnemyMoveHit : MonoBehaviour {
               }
        }
 
-       public void OnCollisionExit2D(Collision2D collision){
+       public void OnTriggerExit2D(Collider2D collision){
               if (collision.gameObject.tag == "Player") {
                      anim.SetBool("Attack", false);
               }
