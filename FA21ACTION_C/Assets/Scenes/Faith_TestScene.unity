@@ -2135,6 +2135,26 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5150162996183142948, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.6768749
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150162996183142948, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.6406589
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150162996183142948, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150162996183142948, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150162996183142949, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8094896607674308990, guid: e3b2d5d66af2ed2449e8c0f86eee293a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
 --- !u!1001 &8699065937273270086
