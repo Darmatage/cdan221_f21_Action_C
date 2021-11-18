@@ -274,8 +274,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
+        x: 512
+        y: 896
         width: 128
         height: 128
       alignment: 0
@@ -295,8 +295,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 768
+        x: 640
+        y: 896
         width: 128
         height: 128
       alignment: 0
@@ -316,8 +316,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
+        x: 768
+        y: 896
         width: 128
         height: 128
       alignment: 0
@@ -337,8 +337,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 768
+        x: 896
+        y: 896
         width: 128
         height: 128
       alignment: 0
@@ -358,7 +358,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 0
         y: 768
         width: 128
         height: 128
@@ -379,7 +379,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_9
       rect:
         serializedVersion: 2
-        x: 640
+        x: 128
         y: 768
         width: 128
         height: 128
@@ -400,7 +400,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_10
       rect:
         serializedVersion: 2
-        x: 768
+        x: 256
         y: 768
         width: 128
         height: 128
@@ -421,7 +421,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_11
       rect:
         serializedVersion: 2
-        x: 896
+        x: 384
         y: 768
         width: 128
         height: 128
@@ -442,8 +442,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 640
+        x: 512
+        y: 768
         width: 128
         height: 128
       alignment: 0
@@ -463,8 +463,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_13
       rect:
         serializedVersion: 2
-        x: 128
-        y: 640
+        x: 640
+        y: 768
         width: 128
         height: 128
       alignment: 0
@@ -484,8 +484,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 640
+        x: 768
+        y: 768
         width: 128
         height: 128
       alignment: 0
@@ -505,8 +505,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_15
       rect:
         serializedVersion: 2
-        x: 384
-        y: 640
+        x: 896
+        y: 768
         width: 128
         height: 128
       alignment: 0
@@ -526,7 +526,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_16
       rect:
         serializedVersion: 2
-        x: 512
+        x: 0
         y: 640
         width: 128
         height: 128
@@ -547,7 +547,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_17
       rect:
         serializedVersion: 2
-        x: 640
+        x: 128
         y: 640
         width: 128
         height: 128
@@ -568,7 +568,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_18
       rect:
         serializedVersion: 2
-        x: 768
+        x: 256
         y: 640
         width: 128
         height: 128
@@ -589,7 +589,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_19
       rect:
         serializedVersion: 2
-        x: 896
+        x: 384
         y: 640
         width: 128
         height: 128
@@ -610,8 +610,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
+        x: 512
+        y: 640
         width: 128
         height: 128
       alignment: 0
@@ -631,8 +631,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
+        x: 640
+        y: 640
         width: 128
         height: 128
       alignment: 0
@@ -652,8 +652,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_22
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
+        x: 768
+        y: 640
         width: 128
         height: 128
       alignment: 0
@@ -673,8 +673,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_23
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
+        x: 896
+        y: 640
         width: 128
         height: 128
       alignment: 0
@@ -694,7 +694,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_24
       rect:
         serializedVersion: 2
-        x: 512
+        x: 0
         y: 512
         width: 128
         height: 128
@@ -715,7 +715,7 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_25
       rect:
         serializedVersion: 2
-        x: 640
+        x: 128
         y: 512
         width: 128
         height: 128
@@ -736,8 +736,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_26
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
+        x: 256
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -757,8 +757,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_27
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
+        x: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -778,8 +778,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 512
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -799,8 +799,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_29
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
+        x: 640
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -820,8 +820,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_30
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
+        x: 768
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -841,8 +841,8 @@ TextureImporter:
       name: Enemies_SpriteSheet_Roughs1Faith_31
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
+        x: 896
+        y: 512
         width: 128
         height: 128
       alignment: 0
