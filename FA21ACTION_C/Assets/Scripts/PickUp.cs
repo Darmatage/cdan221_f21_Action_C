@@ -25,7 +25,7 @@ public class PickUp : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             GetComponent<Collider2D>().enabled = false;
-            GetComponent<AudioSource>().Play();
+            //GetComponent<AudioSource>().Play();
             StartCoroutine(DestroyThis());
 
             if (isHealthPickUp == true)
