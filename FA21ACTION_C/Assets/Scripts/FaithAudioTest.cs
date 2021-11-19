@@ -3,18 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
     public class FaithAudioTest : MonoBehaviour {
-	
-    //Start is called before the first frame update
-	
-	public AudioSource HandSlapFD;
-    
-	//Update is called once per frame void Update() 
-	
-    void Update()
-    {
-	    
-		if (Input.GetKeyDown("5")){HandSlapFD.Play();}
-	
-        
-    }
+		
+		public AudioSource HandSlapFD;
+		
+		void Update()
+		{
+			if (Input.GetKeyDown("3")) {HandSlapFD.Play();}
+		}
 	}
