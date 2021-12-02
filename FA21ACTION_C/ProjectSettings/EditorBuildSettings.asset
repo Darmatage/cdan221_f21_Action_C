@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/DormRoomScene_Enemy.unity
     guid: 244990f57c2c6b04a9893eee83f5a7e9
   - enabled: 1
-    path: Assets/Scenes/Erin_LevelScene.unity
+    path: Assets/Scenes/LevelScene_1.unity
     guid: 239d016a2f256594fadeb0cde4fc20c9
   m_configObjects: {}
