@@ -1,7 +1,145 @@
 fileFormatVersion: 2
 guid: fccc1c2a56a0bd347b53d953fd0d0c35
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7167505897775938027
+    second: ErinPickups_SpriteSheet_32x32_256x256_0
+  - first:
+      213: -6793658416598947891
+    second: ErinPickups_SpriteSheet_32x32_256x256_1
+  - first:
+      213: -7631760610142360694
+    second: ErinPickups_SpriteSheet_32x32_256x256_2
+  - first:
+      213: -5264653521272147612
+    second: ErinPickups_SpriteSheet_32x32_256x256_3
+  - first:
+      213: -7588678078993729673
+    second: ErinPickups_SpriteSheet_32x32_256x256_4
+  - first:
+      213: -3116125630975202821
+    second: ErinPickups_SpriteSheet_32x32_256x256_5
+  - first:
+      213: 8637054983660104319
+    second: ErinPickups_SpriteSheet_32x32_256x256_6
+  - first:
+      213: -2787181824630505285
+    second: ErinPickups_SpriteSheet_32x32_256x256_7
+  - first:
+      213: 9104498614289924264
+    second: ErinPickups_SpriteSheet_32x32_256x256_8
+  - first:
+      213: 8937497447108935958
+    second: ErinPickups_SpriteSheet_32x32_256x256_9
+  - first:
+      213: -1979480743810530432
+    second: ErinPickups_SpriteSheet_32x32_256x256_10
+  - first:
+      213: -3807507708658584116
+    second: ErinPickups_SpriteSheet_32x32_256x256_11
+  - first:
+      213: -8902480358214561902
+    second: ErinPickups_SpriteSheet_32x32_256x256_12
+  - first:
+      213: -2295983830886035090
+    second: ErinPickups_SpriteSheet_32x32_256x256_13
+  - first:
+      213: -7653419280551753449
+    second: ErinPickups_SpriteSheet_32x32_256x256_14
+  - first:
+      213: 7872715180176287915
+    second: ErinPickups_SpriteSheet_32x32_256x256_15
+  - first:
+      213: 212794131238503012
+    second: ErinPickups_SpriteSheet_32x32_256x256_16
+  - first:
+      213: 9126606936837554161
+    second: ErinPickups_SpriteSheet_32x32_256x256_17
+  - first:
+      213: -4467080266040900756
+    second: ErinPickups_SpriteSheet_32x32_256x256_18
+  - first:
+      213: 4170644694803442083
+    second: ErinPickups_SpriteSheet_32x32_256x256_19
+  - first:
+      213: -7957416384183047824
+    second: ErinPickups_SpriteSheet_32x32_256x256_20
+  - first:
+      213: -3305617209695401195
+    second: ErinPickups_SpriteSheet_32x32_256x256_21
+  - first:
+      213: 1472863661046172755
+    second: ErinPickups_SpriteSheet_32x32_256x256_22
+  - first:
+      213: 6902368496866651878
+    second: ErinPickups_SpriteSheet_32x32_256x256_23
+  - first:
+      213: -1873332188343814809
+    second: ErinPickups_SpriteSheet_32x32_256x256_24
+  - first:
+      213: -7885933225051282834
+    second: ErinPickups_SpriteSheet_32x32_256x256_25
+  - first:
+      213: -5842057878618268580
+    second: ErinPickups_SpriteSheet_32x32_256x256_26
+  - first:
+      213: 374864672788067601
+    second: ErinPickups_SpriteSheet_32x32_256x256_27
+  - first:
+      213: 8329045943795532576
+    second: ErinPickups_SpriteSheet_32x32_256x256_28
+  - first:
+      213: -6378312390674198446
+    second: ErinPickups_SpriteSheet_32x32_256x256_29
+  - first:
+      213: -1144129992242173441
+    second: ErinPickups_SpriteSheet_32x32_256x256_30
+  - first:
+      213: 2496590931480083118
+    second: ErinPickups_SpriteSheet_32x32_256x256_31
+  - first:
+      213: -8872918680283305141
+    second: ErinPickups_SpriteSheet_32x32_256x256_32
+  - first:
+      213: 7245704156436003570
+    second: ErinPickups_SpriteSheet_32x32_256x256_33
+  - first:
+      213: 653092908033266513
+    second: ErinPickups_SpriteSheet_32x32_256x256_34
+  - first:
+      213: -3905614983545283623
+    second: ErinPickups_SpriteSheet_32x32_256x256_35
+  - first:
+      213: 209790758198089495
+    second: ErinPickups_SpriteSheet_32x32_256x256_36
+  - first:
+      213: 6200578874298663389
+    second: ErinPickups_SpriteSheet_32x32_256x256_37
+  - first:
+      213: 1466389219939691744
+    second: ErinPickups_SpriteSheet_32x32_256x256_38
+  - first:
+      213: 4618434651069171818
+    second: ErinPickups_SpriteSheet_32x32_256x256_39
+  - first:
+      213: -5470544821186407776
+    second: ErinPickups_SpriteSheet_32x32_256x256_40
+  - first:
+      213: 2353100502604955411
+    second: ErinPickups_SpriteSheet_32x32_256x256_41
+  - first:
+      213: -2466724232003179867
+    second: ErinPickups_SpriteSheet_32x32_256x256_42
+  - first:
+      213: 8305164980499934896
+    second: ErinPickups_SpriteSheet_32x32_256x256_43
+  - first:
+      213: -2292976556892013470
+    second: ErinPickups_SpriteSheet_32x32_256x256_44
+  - first:
+      213: 3820023242723263001
+    second: ErinPickups_SpriteSheet_32x32_256x256_45
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +170,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +179,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +213,999 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9b37293a8187360800000000000000
+      internalID: 7167505897775938027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7e6491aa318b1a0800000000000000
+      internalID: -6793658416598947891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b65ade82a861690800000000000000
+      internalID: -7631760610142360694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4617017048130f6b0800000000000000
+      internalID: -5264653521272147612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777f8c26e799fa690800000000000000
+      internalID: -7588678078993729673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ab32af3c41c4d0800000000000000
+      internalID: -3116125630975202821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ae39e1fbbfcd770800000000000000
+      internalID: 8637054983660104319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0497ac5e0f159d0800000000000000
+      internalID: -2787181824630505285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a089c2804da95e70800000000000000
+      internalID: 9104498614289924264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61183e3439e580c70800000000000000
+      internalID: 8937497447108935958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083827150c87784e0800000000000000
+      internalID: -1979480743810530432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5f7d979e3092bc0800000000000000
+      internalID: -3807507708658584116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f8ab41849047480800000000000000
+      internalID: -8902480358214561902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e615ff5ded60320e0800000000000000
+      internalID: -2295983830886035090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7194691c6b799c590800000000000000
+      internalID: -7653419280551753449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8ab34beb0814d60800000000000000
+      internalID: 7872715180176287915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46242ca822ff3f200800000000000000
+      internalID: 212794131238503012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff71da77a838ae70800000000000000
+      internalID: 9126606936837554161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6389776a2eb102c0800000000000000
+      internalID: -4467080266040900756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9602eb04b11e930800000000000000
+      internalID: 4170644694803442083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07965e275f3919190800000000000000
+      internalID: -7957416384183047824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b00b469a61022d0800000000000000
+      internalID: -3305617209695401195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c0d3732b9a07410800000000000000
+      internalID: 1472863661046172755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee659cd3932acf50800000000000000
+      internalID: 6902368496866651878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765367fcc469006e0800000000000000
+      internalID: -1873332188343814809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e622e5663898f8290800000000000000
+      internalID: -7885933225051282834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c9fabdf47dceea0800000000000000
+      internalID: -5842057878618268580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115306c0f69c33500800000000000000
+      internalID: 374864672788067601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02347dd1827b69370800000000000000
+      internalID: 8329045943795532576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2505467acaeab77a0800000000000000
+      internalID: -6378312390674198446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9e88b75db3f10f0800000000000000
+      internalID: -1144129992242173441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaf454893ca5a220800000000000000
+      internalID: 2496590931480083118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b29c4987f0dd480800000000000000
+      internalID: -8872918680283305141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa70f77a89ed8460800000000000000
+      internalID: 7245704156436003570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15356a42a80401900800000000000000
+      internalID: 653092908033266513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db17548dd77cc9c0800000000000000
+      internalID: -3905614983545283623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7179e83459359e200800000000000000
+      internalID: 209790758198089495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd10d5452a1ec0650800000000000000
+      internalID: 6200578874298663389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eca7fce939a95410800000000000000
+      internalID: 1466389219939691744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68455b78d9f71040800000000000000
+      internalID: 4618434651069171818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d4552878b414b0800000000000000
+      internalID: -5470544821186407776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fbf8a9074e7a020800000000000000
+      internalID: 2353100502604955411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa2a98516f64cdd0800000000000000
+      internalID: -2466724232003179867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be66bf0c8fd14370800000000000000
+      internalID: 8305164980499934896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c372068f5bd20e0800000000000000
+      internalID: -2292976556892013470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912814066e2730530800000000000000
+      internalID: 3820023242723263001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
