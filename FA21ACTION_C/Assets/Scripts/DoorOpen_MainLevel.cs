@@ -4,10 +4,10 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DoorOpen : MonoBehaviour
+public class DoorOpen_MainLevel : MonoBehaviour
 {
 
-    public string NextLevel = "DormRoomScene";
+    public string NextLevel = "Erin_LevelScene";
 
     public void OnTriggerEnter2D(Collider2D other)
     {

@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Faith_TestScene.unity
+    path: Assets/Scenes/DormRoomScene.unity
     guid: ae3dec3f16e35a0429a6e1f44bd42331
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScene_Enemy.unity
+    guid: 244990f57c2c6b04a9893eee83f5a7e9
+  - enabled: 1
+    path: Assets/Scenes/Erin_LevelScene.unity
+    guid: 239d016a2f256594fadeb0cde4fc20c9
   m_configObjects: {}
