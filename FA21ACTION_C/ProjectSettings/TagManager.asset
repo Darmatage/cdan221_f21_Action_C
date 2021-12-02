@@ -8,6 +8,7 @@ TagManager:
   - LaneTop
   - LaneMiddle
   - LaneBottom
+  - PauseMenuSlider
   layers:
   - Default
   - TransparentFX
