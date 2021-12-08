@@ -36,7 +36,7 @@ public class WallOfDoom : MonoBehaviour {
                      } else if (isVertical == true) {
                             forceVector = new Vector2(0, moveForce);
                      }
-                     rb2D.AddForce(forceVector);
+                     rb2D.velocity=forceVector;
               }
        }
 }
