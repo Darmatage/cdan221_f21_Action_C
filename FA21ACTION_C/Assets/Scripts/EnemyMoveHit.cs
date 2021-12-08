@@ -9,11 +9,17 @@ public class EnemyMoveHit : MonoBehaviour {
        private Transform target;
        public int damage = 10;
 
+
+        public Vector3 offsetAttack ;
+
        public int EnemyLives = 3;
        private Renderer rend;
        private GameHandler gameHandler;
 
        public float attackRange = 10;
+
+
+       public bool isCatboy = false;
 
        void Start () {
               rend = GetComponentInChildren<Renderer> ();
@@ -25,14 +31,22 @@ public class EnemyMoveHit : MonoBehaviour {
               if (GameObject.FindWithTag ("GameHandler") != null) {
                   gameHandler = GameObject.FindWithTag ("GameHandler").GetComponent<GameHandler> ();
               }
+
+
+             offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
        }
 
        void Update () {
               float DistToPlayer = Vector3.Distance(transform.position, target.position);
 
               if ((target != null) && (DistToPlayer <= attackRange)){
-				  Vector3 offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
+				            //Vector3 offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
                      transform.position = Vector2.MoveTowards (transform.position, target.position + offsetAttack, speed * Time.deltaTime);
+                  //if enemy is passing through colliders, change transform.position to rigidbody.addforce
+                  //anim.SetBool("Walk", true);
+              }
+              else{
+                //anim.SetBool("Walk", false);
               }
        }
 
