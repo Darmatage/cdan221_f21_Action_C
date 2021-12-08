@@ -8,7 +8,9 @@ public class EnemyMoveHit : MonoBehaviour {
        public float speed = 4f;
        private Transform target;
        public int damage = 10;
-
+       public float damageRate = 1f;
+       public bool canAttack = true;
+       public float attackTimer = 0;
 
         public Vector3 offsetAttack ;
 
@@ -23,6 +25,7 @@ public class EnemyMoveHit : MonoBehaviour {
 
        void Start () {
               rend = GetComponentInChildren<Renderer> ();
+              anim = GetComponentInChildren<Animator> ();
 
               if (GameObject.FindGameObjectWithTag ("Player") != null) {
                      target = GameObject.FindGameObjectWithTag ("Player").GetComponent<Transform> ();
@@ -50,10 +53,21 @@ public class EnemyMoveHit : MonoBehaviour {
               }
        }
 
-       public void OnTriggerEnter2D(Collider2D collision){
+       void FixedUpdate () {
+         if(canAttack) {
+           attackTimer += 0.01f;
+          if(attackTimer >= damageRate ) {
+            gameHandler.playerGetHit(damage);
+            Debug.Log("I'm Attacking!");
+            attackTimer = 0;
+          }
+         }
+       }
+
+       public void OnTriggerStay2D(Collider2D collision){
               if (collision.gameObject.tag == "Player") {
                      anim.SetBool("Attack", true);
-                     gameHandler.playerGetHit(damage);
+                     canAttack = true;
                      //rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
                      //StartCoroutine(HitEnemy());
               }
@@ -62,6 +76,8 @@ public class EnemyMoveHit : MonoBehaviour {
        public void OnTriggerExit2D(Collider2D collision){
               if (collision.gameObject.tag == "Player") {
                      anim.SetBool("Attack", false);
+                     Debug.Log("Attack stopped");
+                     canAttack = false;
               }
        }
 

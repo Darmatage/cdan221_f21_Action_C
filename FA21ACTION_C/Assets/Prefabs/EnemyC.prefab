@@ -149,7 +149,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.23449051, y: -0.83622754}
@@ -200,9 +200,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 5150162996183142950}
   speed: 4
-  damage: 10
+  damage: 5
+  damageRate: 0.5
+  canAttack: 1
+  attackTimer: 0
+  offsetAttack: {x: 0, y: 0, z: 0}
   EnemyLives: 3
   attackRange: 10
+  isCatboy: 0
 --- !u!114 &6526989342282625876
 MonoBehaviour:
   m_ObjectHideFlags: 0
