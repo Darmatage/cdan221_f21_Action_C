@@ -116,7 +116,7 @@ public class GameHandler : MonoBehaviour {
       }
 
       public void StartGame() {
-            SceneManager.LoadScene("LevelScene_0");
+            SceneManager.LoadScene("DormRoomScene_Beginning");
       }
 
 	public void RestartGame() {
