@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 6a6c6296736f37a4a8174b729b10e37c
   - enabled: 1
+    path: Assets/Scenes/DormRoomScene_Beginning.unity
+    guid: dfde9d775e88c0a44b54292be69566eb
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/DormRoomScene.unity
     guid: ae3dec3f16e35a0429a6e1f44bd42331
+  - enabled: 1
+    path: Assets/Scenes/EndLose.unity
+    guid: 8f9ca70fb66dda841b0320f856d4bdc6
   - enabled: 1
     path: Assets/Scenes/DormRoomScene_Enemy.unity
     guid: 244990f57c2c6b04a9893eee83f5a7e9
