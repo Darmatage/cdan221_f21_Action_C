@@ -4,72 +4,80 @@ using UnityEngine;
 
 public class EnemyMoveHit : MonoBehaviour {
 
-       public Animator anim;
-       public float speed = 4f;
-       private Transform target;
-       public int damage = 10;
-       public float damageRate = 1f;
-       public bool canAttack = true;
-       public float attackTimer = 0;
+	public Animator anim;
+	public float speed = 4f;
+	private Transform target;
+	public int damage = 5;
+	public float damageRate = 0.5f;
+	public bool canAttack = false;
+	public float attackTimer = 0;
 
-        public Vector3 offsetAttack ;
+	public Vector3 offsetAttack ;
+	public float pushBackAmt = 3;
 
-       public int EnemyLives = 3;
-       private Renderer rend;
-       private GameHandler gameHandler;
+	public int EnemyLives = 3;
+	private Renderer rend;
+	private GameHandler gameHandler;
 
-       public float attackRange = 10;
-
-
-       public bool isCatboy = false;
-
-       void Start () {
-              rend = GetComponentInChildren<Renderer> ();
-              anim = GetComponentInChildren<Animator> ();
-
-              if (GameObject.FindGameObjectWithTag ("Player") != null) {
-                     target = GameObject.FindGameObjectWithTag ("Player").GetComponent<Transform> ();
-              }
-
-              if (GameObject.FindWithTag ("GameHandler") != null) {
-                  gameHandler = GameObject.FindWithTag ("GameHandler").GetComponent<GameHandler> ();
-              }
+	public float attackRange = 10;
 
 
-             offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
-       }
+	public bool isCatboy = false;
 
-       void Update () {
-              float DistToPlayer = Vector3.Distance(transform.position, target.position);
+	void Start () {
+		rend = GetComponentInChildren<Renderer> ();
+		anim = GetComponentInChildren<Animator> ();
 
-              if ((target != null) && (DistToPlayer <= attackRange)){
-				            //Vector3 offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
-                     transform.position = Vector2.MoveTowards (transform.position, target.position + offsetAttack, speed * Time.deltaTime);
-                  //if enemy is passing through colliders, change transform.position to rigidbody.addforce
-                  //anim.SetBool("Walk", true);
-              }
-              else{
-                //anim.SetBool("Walk", false);
-              }
-       }
+		if (GameObject.FindGameObjectWithTag ("Player") != null) {
+			target = GameObject.FindGameObjectWithTag ("Player").GetComponent<Transform> ();
+		}
 
-       void FixedUpdate () {
-         if(canAttack) {
-           attackTimer += 0.01f;
-          if(attackTimer >= damageRate ) {
+		if (GameObject.FindWithTag ("GameHandler") != null) {
+			gameHandler = GameObject.FindWithTag ("GameHandler").GetComponent<GameHandler> ();
+		}
+
+		offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
+	}
+
+	void Update () {
+		float DistToPlayer = Vector3.Distance(transform.position, target.position);
+
+		if ((target != null) && (DistToPlayer <= attackRange)){
+			//Vector3 offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
+			transform.position = Vector2.MoveTowards (transform.position, target.position + offsetAttack, speed * Time.deltaTime);
+			//if enemy is passing through colliders, change transform.position to rigidbody.addforce
+			//anim.SetBool("Walk", true);
+		}
+		else{
+			//anim.SetBool("Walk", false);
+		}
+	}
+
+	void FixedUpdate () {
+		if(canAttack) {
+			attackTimer += 0.01f;
+		if(attackTimer >= damageRate ) {
             gameHandler.playerGetHit(damage);
             Debug.Log("I'm Attacking!");
             attackTimer = 0;
-          }
-         }
-       }
+			float pushBack = 0;
+				if (target.position.x > gameObject.transform.position.x){
+					pushBack = pushBackAmt;
+				}
+				else {
+					pushBack = pushBackAmt *-1;
+				}
+					target.position = new Vector3(transform.position.x + pushBack, transform.position.y + 1, 0);
+			}
+		}
+	}
 
-       public void OnTriggerStay2D(Collider2D collision){
+	public void OnTriggerStay2D(Collider2D collision){
               if (collision.gameObject.tag == "Player") {
                      anim.SetBool("Attack", true);
                      canAttack = true;
-                     //rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
-                     //StartCoroutine(HitEnemy());
+                     rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
+                     StartCoroutine(ResetColor());
               }
        }
 
@@ -81,7 +89,7 @@ public class EnemyMoveHit : MonoBehaviour {
               }
        }
 
-       IEnumerator HitEnemy(){
+       IEnumerator ResetColor(){
               yield return new WaitForSeconds(0.5f);
               rend.material.color = Color.white;
        }
