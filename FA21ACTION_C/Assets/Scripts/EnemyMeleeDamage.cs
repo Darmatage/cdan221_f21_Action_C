@@ -16,7 +16,7 @@ public class EnemyMeleeDamage : MonoBehaviour {
 
 	public void TakeDamage(int damage){
 		currentHealth -= damage;
-		//anim.SetTrigger ("Hurt");
+		anim.SetTrigger ("Hurt");
 		if (currentHealth <= 0){
 			Die();
 		}
@@ -24,7 +24,7 @@ public class EnemyMeleeDamage : MonoBehaviour {
 
 	void Die(){
 		Instantiate (healthLoot, transform.position, Quaternion.identity);
-		//anim.SetBool ("isDead", true);
+		anim.SetBool ("KO", true);
 		GetComponent<Collider2D>().enabled = false;
 		this.enabled = false;
 		StartCoroutine(Death());
@@ -36,4 +36,4 @@ public class EnemyMeleeDamage : MonoBehaviour {
 		Destroy(gameObject);
 	}
 
-} 
+}

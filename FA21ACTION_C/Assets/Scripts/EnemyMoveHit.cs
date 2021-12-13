@@ -46,10 +46,10 @@ public class EnemyMoveHit : MonoBehaviour {
 			//Vector3 offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
 			transform.position = Vector2.MoveTowards (transform.position, target.position + offsetAttack, speed * Time.deltaTime);
 			//if enemy is passing through colliders, change transform.position to rigidbody.addforce
-			//anim.SetBool("Walk", true);
+			anim.SetBool("Walk", true);
 		}
 		else{
-			//anim.SetBool("Walk", false);
+			anim.SetBool("Walk", false);
 		}
 	}
 
@@ -57,6 +57,7 @@ public class EnemyMoveHit : MonoBehaviour {
 		if(canAttack) {
 			attackTimer += 0.01f;
 		if(attackTimer >= damageRate ) {
+				 anim.SetBool("Attack", true);
             gameHandler.playerGetHit(damage);
             Debug.Log("I'm Attacking!");
             attackTimer = 0;
@@ -74,7 +75,7 @@ public class EnemyMoveHit : MonoBehaviour {
 
 	public void OnTriggerStay2D(Collider2D collision){
               if (collision.gameObject.tag == "Player") {
-                     anim.SetBool("Attack", true);
+                     //anim.SetBool("Attack", true);
                      canAttack = true;
                      rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
                      StartCoroutine(ResetColor());
