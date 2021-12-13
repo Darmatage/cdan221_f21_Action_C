@@ -11,7 +11,7 @@ public class EnemyMeleeDamage : MonoBehaviour {
 
 	void Start(){
 		currentHealth = maxHealth;
-		anim = gameObject.GetComponent<Animator>();
+		anim = gameObject.GetComponentInChildren<Animator>();
 	}
 
 	public void TakeDamage(int damage){
@@ -24,14 +24,19 @@ public class EnemyMeleeDamage : MonoBehaviour {
 
 	void Die(){
 		Instantiate (healthLoot, transform.position, Quaternion.identity);
-		anim.SetBool ("KO", true);
+		anim.SetBool("isKO", true);
+		//anim.SetTrigger ("KO");
 		GetComponent<Collider2D>().enabled = false;
-		this.enabled = false;
+		GetComponent<EnemyMoveHit>().enabled = false;
+		//this.enabled = false;
 		StartCoroutine(Death());
 	}
 
+
 	IEnumerator Death(){
-		yield return new WaitForSeconds(0.5f);
+		//yield return new WaitForSeconds(0.5f);
+		//anim.SetBool("isKO", true);
+		yield return new WaitForSeconds(5f);
 		Debug.Log("You Killed a baddie. You deserve loot!");
 		Destroy(gameObject);
 	}
