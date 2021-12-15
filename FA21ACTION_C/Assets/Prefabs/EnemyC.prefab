@@ -202,13 +202,14 @@ MonoBehaviour:
   anim: {fileID: 5150162996183142950}
   speed: 4
   damage: 5
-  damageRate: 0.5
+  damageRate: 0.2
   canAttack: 1
   attackTimer: 0
   offsetAttack: {x: 0, y: 0, z: 0}
   pushBackAmt: 3
   EnemyLives: 3
   attackRange: 10
+  scaleX: 0
   isCatboy: 0
 --- !u!114 &2390337528343499418
 MonoBehaviour:

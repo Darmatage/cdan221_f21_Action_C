@@ -125,7 +125,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   speed: 4
   damage: 2
-  damageRate: 1
+  damageRate: 0.1
   canAttack: 0
   attackTimer: 0
   offsetAttack: {x: 0, y: 0, z: 0}

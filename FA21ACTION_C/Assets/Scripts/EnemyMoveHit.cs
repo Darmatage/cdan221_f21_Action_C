@@ -8,7 +8,7 @@ public class EnemyMoveHit : MonoBehaviour {
 	public float speed = 4f;
 	private Transform target;
 	public int damage = 5;
-	public float damageRate = 0.5f;
+	public float damageRate = 0.2f;
 	public bool canAttack = false;
 	public float attackTimer = 0;
 

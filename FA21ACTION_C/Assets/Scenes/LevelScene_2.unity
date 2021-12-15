@@ -974,7 +974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476521, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: damageRate
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476525, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_Name
@@ -2044,7 +2044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476521, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: damageRate
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476525, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_Name
@@ -4498,7 +4498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476521, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: damageRate
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476525, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_Name
