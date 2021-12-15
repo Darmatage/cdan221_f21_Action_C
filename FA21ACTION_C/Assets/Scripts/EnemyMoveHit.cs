@@ -6,7 +6,7 @@ public class EnemyMoveHit : MonoBehaviour {
 
 	public Animator anim;
 	public float speed = 4f;
-	private Transform target;
+	public Transform target;
 	public int damage = 5;
 	public float damageRate = 0.2f;
 	public bool canAttack = false;

@@ -211,7 +211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &70642876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,15 +996,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 58.63
+      value: 44.861828
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8849258
+      value: -3.53
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.373968
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1044,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476527, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
@@ -2488,15 +2488,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 100.53
+      value: 86.761826
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.80507416
+      value: -0.84
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.373968
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2536,7 +2536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476527, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
@@ -2619,7 +2619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &718326967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2745,6 +2745,10 @@ PrefabInstance:
     - target: {fileID: 3579581730419614979, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
       propertyPath: ItemName
       value: flashlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060392011494864210, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
+      propertyPath: isHealthPickUp
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4414086750871423196, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
       propertyPath: m_IsActive
@@ -2983,6 +2987,10 @@ PrefabInstance:
       propertyPath: ItemName
       value: flashlight
       objectReference: {fileID: 0}
+    - target: {fileID: 4060392011494864210, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
+      propertyPath: isHealthPickUp
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4414086750871423196, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3002,15 +3010,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 90.96
+      value: 77.191826
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.3
+      value: -1.9450741
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.373968
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3050,7 +3058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476527, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
@@ -3710,7 +3718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1344368055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3913,7 +3921,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464400164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.768174, y: -1.6450741, z: -10.373968}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 770546598}
@@ -4065,6 +4073,10 @@ PrefabInstance:
     - target: {fileID: 3579581730419614979, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
       propertyPath: ItemName
       value: flashlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060392011494864210, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
+      propertyPath: isHealthPickUp
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4414086750871423196, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
       propertyPath: m_IsActive
@@ -5677,7 +5689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2139126528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5750,15 +5762,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.4
+      value: 14.631825
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.35492587
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.373968
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476520, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5798,7 +5810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5150162995789476527, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cb3c5c501046d147a12b7fe2e8411f9, type: 3}
@@ -5868,6 +5880,10 @@ PrefabInstance:
     - target: {fileID: 3579581730419614979, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
       propertyPath: ItemName
       value: flashlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060392011494864210, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
+      propertyPath: isHealthPickUp
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4414086750871423196, guid: 9fd8031da6fa3c445be6ee5f624e5109, type: 3}
       propertyPath: m_IsActive
