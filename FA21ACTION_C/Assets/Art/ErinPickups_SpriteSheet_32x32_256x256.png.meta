@@ -140,6 +140,9 @@ TextureImporter:
   - first:
       213: 3820023242723263001
     second: ErinPickups_SpriteSheet_32x32_256x256_45
+  - first:
+      213: -3234066388276895803
+    second: ErinPickups_SpriteSheet_32x32_256x256_46
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1202,6 +1205,27 @@ TextureImporter:
       bones: []
       spriteID: 912814066e2730530800000000000000
       internalID: 3820023242723263001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErinPickups_SpriteSheet_32x32_256x256_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf99b231c94e13d0800000000000000
+      internalID: -3234066388276895803
       vertices: []
       indices: 
       edges: []

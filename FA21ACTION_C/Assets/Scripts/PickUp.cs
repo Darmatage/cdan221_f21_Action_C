@@ -30,7 +30,7 @@ public class PickUp : MonoBehaviour
 
             if (isHealthPickUp == true)
             {
-                gameHandler.playerGetHit(healthBoost * -1);
+                //gameHandler.playerGetHit(healthBoost * -1);
                 //playerPowerupVFX.powerup();
             }
 
