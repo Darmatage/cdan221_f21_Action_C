@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMoveShoot : MonoBehaviour {
 
-	//public Animator anim;
+	public Animator anim;
 	public float speed = 2f;
 	public float stoppingDistance = 4f; // when enemy stops moving towards player
 	public float retreatDistance = 3f; // when enemy moves away from approaching player
@@ -36,6 +36,7 @@ public class EnemyMoveShoot : MonoBehaviour {
               timeBtwShots = startTimeBtwShots;
 
               rend = GetComponentInChildren<Renderer> ();
+			  anim = GetComponentInChildren<Animator> ();
 
               //if (GameObject.FindWithTag ("GameHandler") != null) {
               // gameHander = GameObject.FindWithTag ("GameHandler").GetComponent<GameHandler> ();
@@ -43,7 +44,7 @@ public class EnemyMoveShoot : MonoBehaviour {
 	}
 
 	void Update () {
-		float DistToPlayer = Vector3.Distance(transform.position, player.position);
+		float DistToPlayer = Vector2.Distance(transform.position, player.position);
 		if ((player != null) && (DistToPlayer <= attackRange)) {
 			// approach player
 			if (Vector2.Distance (transform.position, player.position) > stoppingDistance) {
@@ -72,13 +73,13 @@ public class EnemyMoveShoot : MonoBehaviour {
 
 			if (timeBtwShots <= 0) {
 				isAttacking = true;
-				//anim.SetBool("Attack", true);
+				//anim.SetBool("Throw", true);
 				Instantiate (projectile, throwPoint.position, Quaternion.identity);
 				timeBtwShots = startTimeBtwShots;
 			} else {
 				timeBtwShots -= Time.deltaTime;
 				isAttacking = false;
-				//anim.SetBool("Attack", true);
+				//anim.SetBool("Throw", false);
 			}
 			
 			if (player.position.x > gameObject.transform.position.x){

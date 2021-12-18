@@ -32,12 +32,15 @@ public class EnemyProjectile : MonoBehaviour {
        void OnTriggerEnter2D(Collider2D collision){
               if (collision.gameObject.tag == "Player") {
                      gameHandlerObj.playerGetHit(damage);
-              }
-              if (collision.gameObject.tag != "enemyShooter") {
-                     GameObject animEffect = Instantiate (hitEffectAnim, transform.position, Quaternion.identity);
+					 GameObject animEffect = Instantiate (hitEffectAnim, transform.position, Quaternion.identity);
                      Destroy (animEffect, 0.5f);
                      Destroy (gameObject);
               }
+              // if (collision.gameObject.tag != "enemyShooter") {
+                     // GameObject animEffect = Instantiate (hitEffectAnim, transform.position, Quaternion.identity);
+                     // Destroy (animEffect, 0.5f);
+                     // Destroy (gameObject);
+              // }
        }
 
        IEnumerator selfDestruct(){

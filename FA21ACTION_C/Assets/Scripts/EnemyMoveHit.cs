@@ -53,7 +53,7 @@ public class EnemyMoveHit : MonoBehaviour {
 				gameObject.transform.localScale = new Vector2(scaleX, gameObject.transform.localScale.y);
 			} else {
 				gameObject.transform.localScale = new Vector2(scaleX * -1, gameObject.transform.localScale.y);
-				}
+			}
 		}
 		else{
 			anim.SetBool("Walk", false);
