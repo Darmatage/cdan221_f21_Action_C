@@ -185,4 +185,14 @@ public class GameInventory : MonoBehaviour
 		}
 	}
 	
+	public bool checkKeys(string LockedKey){
+		if (LockedKey == "key1"){ if (key1bool){return true;} else {return false;}}
+		else if (LockedKey == "key2"){ if (key2bool){return true;} else {return false;}}
+		else if (LockedKey == "key3"){ if (key3bool){return true;} else {return false;}}
+		else if (LockedKey == "key4"){ if (key4bool){return true;} else {return false;}}
+		else if (LockedKey == "key5"){ if (key5bool){return true;} else {return false;}}
+		else if (LockedKey == "key6"){ if (key6bool){return true;} else {return false;}}
+		else {return false;}
+	}
+	
 }

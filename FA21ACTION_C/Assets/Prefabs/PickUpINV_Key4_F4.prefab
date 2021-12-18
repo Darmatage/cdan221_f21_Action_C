@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4139285837310814400}
   - component: {fileID: 4060392011494864210}
   - component: {fileID: 3579581730419614979}
+  - component: {fileID: 5406280975384351265}
   m_Layer: 0
   m_Name: PickUpINV_Key4_F4
   m_TagString: Untagged
@@ -92,6 +93,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInventory: {fileID: 0}
   ItemName: key4
+--- !u!114 &5406280975384351265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440967011859164801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a185b6b62f7044ba922234a3253545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedS: 2.5
+  distS: 0.5
 --- !u!1 &4414086750871423196
 GameObject:
   m_ObjectHideFlags: 0
