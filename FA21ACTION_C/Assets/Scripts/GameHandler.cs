@@ -13,8 +13,8 @@ public class GameHandler : MonoBehaviour {
     public int StartPlayerHealth = 100;
     public GameObject healthText;
 
-    public static int gotTokens = 0;
-    public GameObject tokensText;
+    //public static int gotTokens = 0;
+    //public GameObject tokensText;
 
     public bool isDefending = false;
 
@@ -73,10 +73,10 @@ public class GameHandler : MonoBehaviour {
         } 
 
 
-      public void playerGetTokens(int newTokens){
-            gotTokens += newTokens;
-            updateStatsDisplay();
-      }
+      // public void playerGetTokens(int newTokens){
+            // gotTokens += newTokens;
+            // updateStatsDisplay();
+      // }
 
       public void playerGetHit(int damage){
            if (isDefending == false){
@@ -85,8 +85,8 @@ public class GameHandler : MonoBehaviour {
                   player.GetComponent<PlayerHurt>().playerHit();
             }
 
-           if (playerHealth >= StartPlayerHealth){
-                  playerHealth = StartPlayerHealth;
+           if (playerHealth >= StartPlayerHealth + 20){
+                  playerHealth = StartPlayerHealth + 20;
             }
 
            if (playerHealth <= 0){
@@ -99,8 +99,8 @@ public class GameHandler : MonoBehaviour {
             Text healthTextTemp = healthText.GetComponent<Text>();
             healthTextTemp.text = "HEALTH: " + playerHealth;
 
-            Text tokensTextTemp = tokensText.GetComponent<Text>();
-            tokensTextTemp.text = "COOKIES: " + gotTokens;
+            //Text tokensTextTemp = tokensText.GetComponent<Text>();
+            //tokensTextTemp.text = "COOKIES: " + gotTokens;
       }
 
       public void playerDies(){

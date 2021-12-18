@@ -29,6 +29,27 @@ TextureImporter:
   - first:
       213: -6805741936692086898
     second: TeamC_Obstacles_spritesheet_8
+  - first:
+      213: -1025751044976801839
+    second: TeamC_Obstacles_spritesheet_9
+  - first:
+      213: 8035561565736888874
+    second: TeamC_Obstacles_spritesheet_10
+  - first:
+      213: 4425264883741162061
+    second: TeamC_Obstacles_spritesheet_11
+  - first:
+      213: 5307521443389440184
+    second: TeamC_Obstacles_spritesheet_12
+  - first:
+      213: 8613434905689888385
+    second: TeamC_Obstacles_spritesheet_13
+  - first:
+      213: 5386878204039063546
+    second: TeamC_Obstacles_spritesheet_14
+  - first:
+      213: 3982239378704677671
+    second: TeamC_Obstacles_spritesheet_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -259,8 +280,8 @@ TextureImporter:
       name: TeamC_Obstacles_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
+        x: 384
+        y: 384
         width: 64
         height: 128
       alignment: 0
@@ -280,8 +301,8 @@ TextureImporter:
       name: TeamC_Obstacles_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
+        x: 448
+        y: 384
         width: 64
         height: 128
       alignment: 0
@@ -301,7 +322,7 @@ TextureImporter:
       name: TeamC_Obstacles_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 320
+        x: 0
         y: 256
         width: 64
         height: 128
@@ -314,6 +335,153 @@ TextureImporter:
       bones: []
       spriteID: e873d7654c52d81a0800000000000000
       internalID: -6805741936692086898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamC_Obstacles_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d70c28fbdcc3c1f0800000000000000
+      internalID: -1025751044976801839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamC_Obstacles_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a67887bac048f60800000000000000
+      internalID: 8035561565736888874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamC_Obstacles_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4af66837f2b96d30800000000000000
+      internalID: 4425264883741162061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamC_Obstacles_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b00ffed1aa18a940800000000000000
+      internalID: 5307521443389440184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamC_Obstacles_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18698992961198770800000000000000
+      internalID: 8613434905689888385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamC_Obstacles_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7ea088f2902ca40800000000000000
+      internalID: 5386878204039063546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeamC_Obstacles_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb34abd91c34730800000000000000
+      internalID: 3982239378704677671
       vertices: []
       indices: 
       edges: []

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &898617470928854651
+--- !u!1 &2440967011859164801
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 898617470928854654}
-  - component: {fileID: 898617470928854653}
-  - component: {fileID: 898617470928854652}
-  - component: {fileID: 1898301550070559688}
+  - component: {fileID: 2219232107887373199}
+  - component: {fileID: 4139285837310814400}
+  - component: {fileID: 4060392011494864210}
+  - component: {fileID: 3579581730419614979}
+  - component: {fileID: 4914965569154008540}
   m_Layer: 0
-  m_Name: PickUpBoost
+  m_Name: PickUpINV_Key3_F5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &898617470928854654
+--- !u!4 &2219232107887373199
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898617470928854651}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.024765, y: -0.18849993, z: 3.9821613}
+  m_GameObject: {fileID: 2440967011859164801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 898617471759065706}
+  - {fileID: 95332770515650098}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &898617470928854653
+--- !u!61 &4139285837310814400
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898617470928854651}
+  m_GameObject: {fileID: 2440967011859164801}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -60,39 +61,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &898617470928854652
+--- !u!114 &4060392011494864210
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898617470928854651}
+  m_GameObject: {fileID: 2440967011859164801}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a703c735c24fd644da24a8f560cdb569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameHandler: {fileID: 0}
-  isHealthPickUp: 1
+  isHealthPickUp: 0
   isSpeedBoostPickUp: 0
-  healthBoost: 10
+  healthBoost: 50
   speedBoost: 2
   speedTime: 2
---- !u!114 &1898301550070559688
+--- !u!114 &3579581730419614979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898617470928854651}
+  m_GameObject: {fileID: 2440967011859164801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdc98423b6edc14e906b276bce8e657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInventory: {fileID: 0}
+  ItemName: key3
+--- !u!114 &4914965569154008540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440967011859164801}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51a185b6b62f7044ba922234a3253545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedS: 2
-  distS: 0.3
---- !u!1 &898617471759065705
+  speedS: 2.5
+  distS: 0.5
+--- !u!1 &4414086750871423196
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,8 +115,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 898617471759065706}
-  - component: {fileID: 898617471759065707}
+  - component: {fileID: 95332770515650098}
+  - component: {fileID: 6961805349987392563}
+  - component: {fileID: 854276992501405329}
   m_Layer: 0
   m_Name: pickup_art
   m_TagString: Untagged
@@ -109,27 +125,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &898617471759065706
+--- !u!4 &95332770515650098
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898617471759065705}
+  m_GameObject: {fileID: 4414086750871423196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 898617470928854654}
+  m_Father: {fileID: 2219232107887373199}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &898617471759065707
+--- !u!212 &6961805349987392563
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898617471759065705}
+  m_GameObject: {fileID: 4414086750871423196}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -163,8 +179,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 90
-  m_Sprite: {fileID: 7167505897775938027, guid: fccc1c2a56a0bd347b53d953fd0d0c35, type: 3}
+  m_SortingOrder: 1000
+  m_Sprite: {fileID: 7245704156436003570, guid: fccc1c2a56a0bd347b53d953fd0d0c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -175,3 +191,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &854276992501405329
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4414086750871423196}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1cd9d1a8d2967140aaba7c5b4ac2bed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

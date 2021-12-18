@@ -50,4 +50,16 @@ public class PlayerMoveAround : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
     }
+	
+	//soda speed boost functions:
+	public void SpeedBoost(float speedMultiplier){
+		runSpeed = startSpeed * speedMultiplier;
+		StartCoroutine(SpeedBoostTime());
+	}
+	
+	IEnumerator SpeedBoostTime(){
+		yield return new WaitForSeconds(3f);
+		runSpeed = startSpeed;
+	}
+	
 }
