@@ -146,9 +146,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5150162996183142948}
   - component: {fileID: 5150162996183142949}
-  - component: {fileID: 5150162996183142950}
+  - component: {fileID: 3520581639949764864}
   m_Layer: 0
-  m_Name: enemyA_art
+  m_Name: enemyB_art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 90
-  m_Sprite: {fileID: 8004693457914973848, guid: cecf02f550c880848868a5444f36b64b, type: 3}
+  m_Sprite: {fileID: -6084638781300383473, guid: cecf02f550c880848868a5444f36b64b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -220,7 +220,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5150162996183142950
+--- !u!95 &3520581639949764864
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ Animator:
   m_GameObject: {fileID: 5150162996183142939}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e190eb70a0d10a7469924e48a8bd4095, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4f8e7d48d3bf41a4c89f2b8cc5690d52, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
