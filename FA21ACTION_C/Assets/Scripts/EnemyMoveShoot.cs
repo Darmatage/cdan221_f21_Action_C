@@ -82,11 +82,11 @@ public class EnemyMoveShoot : MonoBehaviour {
 				//anim.SetBool("Throw", false);
 			}
 			
-			if (player.position.x > gameObject.transform.position.x){
-				gameObject.transform.localScale = new Vector2(scaleX, gameObject.transform.localScale.y);
-			} else {
-				gameObject.transform.localScale = new Vector2(scaleX * -1, gameObject.transform.localScale.y);
-			}
+			// if (player.position.x > gameObject.transform.position.x){
+				// gameObject.transform.localScale = new Vector2(scaleX, gameObject.transform.localScale.y);
+			// } else {
+				// gameObject.transform.localScale = new Vector2(scaleX * -1, gameObject.transform.localScale.y);
+			// }
 		}
 	}
 
