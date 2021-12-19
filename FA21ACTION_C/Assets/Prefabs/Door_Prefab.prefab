@@ -3056,6 +3056,7 @@ GameObject:
   - component: {fileID: 6468144074489991407}
   - component: {fileID: 521972794932952353}
   - component: {fileID: 1356222025969938274}
+  - component: {fileID: 5742890714491715102}
   m_Layer: 0
   m_Name: Door_Prefab
   m_TagString: Untagged
@@ -3130,6 +3131,20 @@ MonoBehaviour:
   doorUnlocked: {fileID: 744933712228884882}
   isLocked: 0
   LockedKey: 
+--- !u!114 &5742890714491715102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592186158192624305}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa01436996012c4ba700a3325428098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextLevel: 
+  offsetY: -2
 --- !u!1 &9125761197566335273
 GameObject:
   m_ObjectHideFlags: 0
