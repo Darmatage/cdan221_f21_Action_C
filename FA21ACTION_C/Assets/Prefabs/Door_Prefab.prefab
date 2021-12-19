@@ -3130,6 +3130,9 @@ MonoBehaviour:
   doorUnlocked: {fileID: 744933712228884882}
   isLocked: 0
   LockedKey: 
+  offsetY: 0
+  offsetX: -2
+  isHallwayDoor: 0
 --- !u!1 &9125761197566335273
 GameObject:
   m_ObjectHideFlags: 0
