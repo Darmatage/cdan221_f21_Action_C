@@ -99,7 +99,7 @@ public class EnemyMoveShoot : MonoBehaviour {
 						else {
 							pushBack = pushBackAmt *-1;
 						}
-						aPlayer.gameObject.transform.position = new Vector3(transform.position.x + pushBack, transform.position.y + 1, 0);
+						aPlayer.gameObject.transform.position = new Vector3(transform.position.x + pushBack, transform.position.y - 1, 0);
 						Debug.Log("push player back: " + pushBack);
 					}
 				}

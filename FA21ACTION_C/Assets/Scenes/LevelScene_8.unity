@@ -1094,8 +1094,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 2087371155}
     m_Modifications:
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: LockedKey
+      value: key6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: NextLevel
       value: End_Win
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4299246354104278993, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_IsActive
@@ -3210,6 +3222,10 @@ PrefabInstance:
     - target: {fileID: 1300283942776257502, guid: 83eef4f99fb0b4b43ad7d73d2c51b87d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554337169628127714, guid: 83eef4f99fb0b4b43ad7d73d2c51b87d, type: 3}
+      propertyPath: StartPlayerHealth
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2040241959306559475, guid: 83eef4f99fb0b4b43ad7d73d2c51b87d, type: 3}
       propertyPath: m_AnchorMax.x

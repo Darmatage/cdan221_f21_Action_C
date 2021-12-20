@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInventory: {fileID: 0}
-  ItemName: key5
+  ItemName: key6
 --- !u!114 &7972650219344887183
 MonoBehaviour:
   m_ObjectHideFlags: 0
