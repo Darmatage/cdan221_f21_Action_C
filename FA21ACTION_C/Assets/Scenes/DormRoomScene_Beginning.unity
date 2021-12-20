@@ -1476,6 +1476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameHandlerCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7290868946605719030, guid: 83eef4f99fb0b4b43ad7d73d2c51b87d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6f3a283bc1577a747a3b823ffbd224c3, type: 3}
     - target: {fileID: 7736566410422179258, guid: 83eef4f99fb0b4b43ad7d73d2c51b87d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2032,6 +2036,110 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1479347018
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.66025
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9511423
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Hey Roomie
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: I know it's getting late...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: ...but I heard that your fav ice cream is being sold downstairs!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: But I heard that someone else is trying to get the last one...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: The elevators are broken, but if you run fast enough...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: ...you'll make it in time, and beat that person there!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: Be careful though, I heard there are some unfriendly students roaming
+        the halls.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: You can attack them using LEFT CLICK!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: Watch out for friendly students, they can help you out on your trek
+        down!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: I'll be sure to help you when I can, but this paper is kicking my but
+        right now.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628683421095109990, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_Name
+      value: NPC_chat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
 --- !u!1 &1709637732
 GameObject:
   m_ObjectHideFlags: 0
