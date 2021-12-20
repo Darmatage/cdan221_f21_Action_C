@@ -2471,6 +2471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp_Flashlight
       objectReference: {fileID: 0}
+    - target: {fileID: 2440967011859164801, guid: d0a4c85e85115c04f9495b80341667d1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a4c85e85115c04f9495b80341667d1, type: 3}
 --- !u!4 &780153261 stripped

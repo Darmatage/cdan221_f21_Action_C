@@ -1512,7 +1512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &797293793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1866,7 +1866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1265565664364164799, guid: 9e9e2e3f5acdaa648a183fb71a404c81, type: 3}
       propertyPath: m_Volume
-      value: 0.39
+      value: 0.147
       objectReference: {fileID: 0}
     - target: {fileID: 1265565664364164799, guid: 9e9e2e3f5acdaa648a183fb71a404c81, type: 3}
       propertyPath: m_audioClip
