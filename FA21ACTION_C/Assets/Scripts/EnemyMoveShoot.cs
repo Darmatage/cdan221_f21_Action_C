@@ -22,8 +22,6 @@ public class EnemyMoveShoot : MonoBehaviour {
 	private Transform player;
 	private Vector2 PlayerVect;
 
-	public int EnemyLives = 30;
-	private Renderer rend;
 	private GameHandler gameHandler;
 
 	public float attackRange = 20;
@@ -42,7 +40,6 @@ public class EnemyMoveShoot : MonoBehaviour {
 
 		timeBtwShots = startTimeBtwShots;
 
-		rend = GetComponentInChildren<Renderer> ();
 		anim = GetComponentInChildren<Animator> ();
 
         if (GameObject.FindWithTag ("GameHandler") != null) {
@@ -121,29 +118,6 @@ public class EnemyMoveShoot : MonoBehaviour {
 		}
 	}
 
-	// void OnCollisionEnter2D(Collision2D collision){
-              // if (collision.gameObject.tag == "bullet") {
-              // EnemyLives -= 1;
-              // StopCoroutine("HitEnemy");
-              // StartCoroutine("HitEnemy");
-              // }
-              // if (collision.gameObject.tag == "Player") {
-                     // EnemyLives -= 2;
-                     // StopCoroutine("HitEnemy");
-                     // StartCoroutine("HitEnemy");
-              // }
-	// }
-
-	IEnumerator HitEnemy(){
-              // color values are R, G, B, and alpha, each divided by 100
-              rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
-              if (EnemyLives < 1){
-                     //gameControllerObj.AddScore (5);
-                     Destroy(gameObject);
-              }
-              else yield return new WaitForSeconds(0.5f);
-              rend.material.color = Color.white;
-	}
 
 	//DISPLAY the range of enemy's attack when selected in the Editor
     void OnDrawGizmosSelected(){
