@@ -201,6 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 5150162996183142950}
   speed: 4
+  target: {fileID: 0}
   damage: 5
   damageRate: 0.2
   canAttack: 1
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   healthLoot: {fileID: 898617470928854651, guid: 8777391c7c4dd394ca01e4efe222a54c, type: 3}
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
 --- !u!114 &6526989342282625876
 MonoBehaviour:
