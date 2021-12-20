@@ -47,6 +47,48 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelScene_5.unity
     guid: 4778cae5b7dc002478f7f356bae632b9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_empty7.unity
+    guid: 8893145dcaacf174a83ef81a3a01b359
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_empty8.unity
+    guid: 3cd1f5348f6cb4843acb5483aeb9307d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_empty12.unity
+    guid: 295f05f78bc667646965b941c97e02c4
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_empty13.unity
+    guid: 62dedd13ec5ece448aaae6bb8c96c4d3
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_enemy5.unity
+    guid: f1c72be959ff9f54c97929693d2078a1
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_enemy6.unity
+    guid: 48e7c77b6ae569442aebe3caaf769cae
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_enemy9.unity
+    guid: 92251dae090bb7a4dba8ac7279441bf7
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_enemy11.unity
+    guid: 97a88ec22b8a00e44b44c2fea51042d5
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_npc2.unity
+    guid: b94d935e2eb87874296bf547239ec797
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_npc4.unity
+    guid: e4c737061d0d765478fab7ef2f84fb3c
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_npc10.unity
+    guid: d99d5615458834d429abf066639c77a8
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_npc14.unity
+    guid: cf086036349420f489cad3120267dd04
   - enabled: 1
     path: Assets/Scenes/DormRoomScenes_Level2/DormRoomScene_2.unity
     guid: b359cc7c8acf33948b1f4459442ac604
@@ -60,10 +102,10 @@ EditorBuildSettings:
     path: Assets/Scenes/DormRoomScenes_Level3/DormRoomScene_Enemy_lvl3_4.unity
     guid: 254bc2a24a9411042a2e1a90f3e2d255
   - enabled: 1
-    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene_Enemy_4.unity
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_enemy3.unity
     guid: 2d2f13e48fe4a3a45b58eea39805ac40
   - enabled: 1
-    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene_4.unity
+    path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_npc1.unity
     guid: 5e9fca91b5786e04289ab5374acdaad9
   - enabled: 1
     path: Assets/Scenes/DormRoomScenes_Level2/DormRoomScene_Enemy_lvl2_2.unity
