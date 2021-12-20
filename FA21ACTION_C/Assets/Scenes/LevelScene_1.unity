@@ -932,7 +932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: NextLevel
-      value: DormRoomScene_Enemy
+      value: DormRoomScene_lvl1_Enemy2
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_Enabled
@@ -1448,6 +1448,115 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 898617470928854654, guid: 8777391c7c4dd394ca01e4efe222a54c, type: 3}
   m_PrefabInstance: {fileID: 383309056}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &392370158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Hey man
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: If you see any food scattered around
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: Be sure to pick it up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: Food can help you in a bunch of ways y'know
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: Sometimes it'll make you fast
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: Sometimes it'll heal you up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: Just some food for a though, haha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: Later, bro
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412799064374267546, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412799064374267546, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971620606230259048, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628683421095109990, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_Name
+      value: NPC_chat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899691410799894328, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
 --- !u!1 &426052760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2284,7 +2393,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: NextLevel
-      value: DormRoomScene
+      value: DormRoomScene_Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_Enabled
@@ -3305,7 +3414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: NextLevel
-      value: DormRoomScene_Enemy
+      value: DormRoomScene_lvl1_2
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_Enabled
@@ -4577,6 +4686,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1644228768}
     m_Modifications:
+    - target: {fileID: 443145862123702384, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: m_Color.a
+      value: 0.8392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 443145862123702384, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 443145862123702384, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: m_Color.g
+      value: 0.20436098
+      objectReference: {fileID: 0}
+    - target: {fileID: 443145862123702384, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: m_Color.r
+      value: 0.32977074
+      objectReference: {fileID: 0}
     - target: {fileID: 471188829337148516, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4591,15 +4716,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: NextLevel
-      value: 
+      value: DormRoomScene
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: isNonDoor
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
+      propertyPath: isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3549985903802255242, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_IsActive
@@ -4659,11 +4788,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6480154324033771548, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7937952843346436117, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8306901871618719501, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: m_IsActive

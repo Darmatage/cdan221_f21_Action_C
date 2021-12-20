@@ -39,6 +39,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelScene_4.unity
     guid: d9e3b9628f392d54fa15022cd631994e
   - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level1/DormRoomScene_lvl1_2.unity
+    guid: fbd6dcb3bb5c1f141a06c22365b8fe59
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level1/DormRoomScene_lvl1_Enemy2.unity
+    guid: 5cf9e74a99cf8ea48a10cb994581ddc9
+  - enabled: 1
     path: Assets/Scenes/LevelScene_5.unity
     guid: 4778cae5b7dc002478f7f356bae632b9
   - enabled: 1
