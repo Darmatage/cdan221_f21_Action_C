@@ -32,6 +32,12 @@ TextureImporter:
   - first:
       213: 1817211410787197581
     second: Enemy_Catboy_IdleWalk_9
+  - first:
+      213: -768542693922458636
+    second: Enemy_Catboy_IdleWalk_10
+  - first:
+      213: 4086531276019855876
+    second: Enemy_Catboy_IdleWalk_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -326,6 +332,48 @@ TextureImporter:
       bones: []
       spriteID: d82e1cd6628083910800000000000000
       internalID: 1817211410787197581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Catboy_IdleWalk_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3b706ed769555f0800000000000000
+      internalID: -768542693922458636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Catboy_IdleWalk_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ffae4b8646b830800000000000000
+      internalID: 4086531276019855876
       vertices: []
       indices: 
       edges: []
