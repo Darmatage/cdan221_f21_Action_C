@@ -56,6 +56,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene4_empty8.unity
     guid: 3cd1f5348f6cb4843acb5483aeb9307d
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level5/DormRoomScene5_empty1.unity
+    guid: feddea9ef6ecc0e45a3a6c2c6c385f96
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level5/DormRoomScene5_empty2.unity
+    guid: ca0544bc363de2c45b9c5e79126278d5
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level5/DormRoomScene5_enemy4.unity
+    guid: e729b5fc2b2471b44b6ea104896dba13
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level5/DormRoomScene5_enemy5.unity
+    guid: ad727eaca56dea34ab7877fad48a276d
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level5/DormRoomScene5_npc3.unity
+    guid: b9afd4a3e57cd524fb0794eb4bacfddc
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
