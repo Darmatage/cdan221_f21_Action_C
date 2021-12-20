@@ -84,16 +84,21 @@ public class GameHandler : MonoBehaviour {
                   updateStatsDisplay();
                   player.GetComponent<PlayerHurt>().playerHit();
             }
-
-           if (playerHealth >= StartPlayerHealth + 20){
-                  playerHealth = StartPlayerHealth + 20;
-            }
-
            if (playerHealth <= 0){
                   playerHealth = 0;
                   playerDies();
             }
       }
+
+	public void playerGetHeath(int healthBoost){
+		playerHealth += healthBoost;
+		updateStatsDisplay();
+		
+		if (playerHealth >= StartPlayerHealth + 20){
+            playerHealth = StartPlayerHealth + 20;
+        }
+      }
+
 
       public void updateStatsDisplay(){
             Text healthTextTemp = healthText.GetComponent<Text>();
