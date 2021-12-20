@@ -8,6 +8,8 @@ public class EnemyMeleeDamage : MonoBehaviour {
 	public GameObject healthLoot;
 	public int maxHealth = 100;
 	public int currentHealth;
+	
+	public bool isBoss = false;
 
 	void Start(){
 		currentHealth = maxHealth;
@@ -26,7 +28,12 @@ public class EnemyMeleeDamage : MonoBehaviour {
 		Instantiate (healthLoot, transform.position, Quaternion.identity);
 		anim.SetBool("isKO", true);
 		GetComponent<Collider2D>().enabled = false;
-		GetComponent<EnemyMoveHit>().enabled = false;
+		if (isBoss == false){
+			GetComponent<EnemyMoveHit>().enabled = false;
+		}
+		else {
+			GetComponent<EnemyMoveShoot>().enabled = false;
+		}
 		//this.enabled = false;
 		StartCoroutine(Death());
 	}

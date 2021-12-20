@@ -12,6 +12,11 @@ public class EnemyMoveShoot : MonoBehaviour {
 	public float startTimeBtwShots = 2;
 	public GameObject projectile;
 	public Transform throwPoint;
+	
+	public Transform slashPnt;
+	public int slashDamage = 5;
+	public LayerMask playerLayer;
+	public float pushBackAmt = 3;
 
 	private Rigidbody2D rb;
 	private Transform player;
@@ -19,7 +24,7 @@ public class EnemyMoveShoot : MonoBehaviour {
 
 	public int EnemyLives = 30;
 	private Renderer rend;
-	//private GameHandler gameHandler;
+	private GameHandler gameHandler;
 
 	public float attackRange = 20;
 	public float slashRange = 10; 
@@ -40,9 +45,9 @@ public class EnemyMoveShoot : MonoBehaviour {
 		rend = GetComponentInChildren<Renderer> ();
 		anim = GetComponentInChildren<Animator> ();
 
-              //if (GameObject.FindWithTag ("GameHandler") != null) {
-              // gameHander = GameObject.FindWithTag ("GameHandler").GetComponent<GameHandler> ();
-              //}
+        if (GameObject.FindWithTag ("GameHandler") != null) {
+            gameHandler = GameObject.FindWithTag ("GameHandler").GetComponent<GameHandler> ();
+        }
 	}
 
 	void Update () {
@@ -73,17 +78,35 @@ public class EnemyMoveShoot : MonoBehaviour {
 				}
 			}
 
+			//attack timer and manager
 			if (timeBtwShots <= 0) {
 				isAttacking = true;
 				if (DistToPlayer > slashRange){
+					//throw attack
 					anim.SetBool("Throw", true);
 					Instantiate (projectile, throwPoint.position, Quaternion.identity);
 				}
 				else{
+					//slash attack
 					anim.SetBool("Attack", true);
+					Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(slashPnt.position, slashRange, playerLayer);
+					
+					foreach(Collider2D aPlayer in hitPlayer){
+						Debug.Log("Boss hit " + aPlayer.name);
+						gameHandler.playerGetHit(slashDamage);
+						float pushBack = 0;
+						Transform target = aPlayer.gameObject.transform;
+						if (aPlayer.gameObject.transform.position.x > gameObject.transform.position.x){
+							pushBack = pushBackAmt;
+						}
+						else {
+							pushBack = pushBackAmt *-1;
+						}
+						aPlayer.gameObject.transform.position = new Vector3(transform.position.x + pushBack, transform.position.y + 1, 0);
+						Debug.Log("push player back: " + pushBack);
+					}
 				}
-				
-				timeBtwShots = startTimeBtwShots;
+				timeBtwShots = startTimeBtwShots;	
 			} else {
 				timeBtwShots -= Time.deltaTime;
 				isAttacking = false;
