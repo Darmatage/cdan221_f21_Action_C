@@ -21,22 +21,24 @@ public class EnemyMoveShoot : MonoBehaviour {
 	private Renderer rend;
 	//private GameHandler gameHandler;
 
-	public float attackRange = 10;
+	public float attackRange = 20;
+	public float slashRange = 10; 
 	public bool isAttacking = false;
 
 	private float scaleX; 
 
 	void Start () {
-              Physics2D.queriesStartInColliders = false;
+	Physics2D.queriesStartInColliders = false;
 
-              rb = GetComponent<Rigidbody2D> ();
-              player = GameObject.FindGameObjectWithTag("Player").transform;
-              PlayerVect = player.transform.position;
+		rb = GetComponent<Rigidbody2D> ();
+		player = GameObject.FindGameObjectWithTag("Player").transform;
+		PlayerVect = player.transform.position;
+		scaleX = gameObject.transform.localScale.x;
 
-              timeBtwShots = startTimeBtwShots;
+		timeBtwShots = startTimeBtwShots;
 
-              rend = GetComponentInChildren<Renderer> ();
-			  anim = GetComponentInChildren<Animator> ();
+		rend = GetComponentInChildren<Renderer> ();
+		anim = GetComponentInChildren<Animator> ();
 
               //if (GameObject.FindWithTag ("GameHandler") != null) {
               // gameHander = GameObject.FindWithTag ("GameHandler").GetComponent<GameHandler> ();
@@ -50,7 +52,7 @@ public class EnemyMoveShoot : MonoBehaviour {
 			if (Vector2.Distance (transform.position, player.position) > stoppingDistance) {
 				transform.position = Vector2.MoveTowards (transform.position, player.position, speed * Time.deltaTime);
 				if (isAttacking == false) {
-					//anim.SetBool("Walk", true);
+					anim.SetBool("Walk", true);
 				}
 				
 				//Vector2 lookDir = PlayerVect - rb.position;
@@ -60,33 +62,39 @@ public class EnemyMoveShoot : MonoBehaviour {
 			// stop moving
 			else if (Vector2.Distance (transform.position, player.position) < stoppingDistance && Vector2.Distance (transform.position, player.position) > retreatDistance) {
 				transform.position = this.transform.position;
-				//anim.SetBool("Walk", false);
+				anim.SetBool("Walk", false);
 			}
 
 			// retreat from player
 			else if (Vector2.Distance (transform.position, player.position) < retreatDistance) {
 				transform.position = Vector2.MoveTowards (transform.position, player.position, -speed * Time.deltaTime);
 				if (isAttacking == false) {
-					//anim.SetBool("Walk", true);
+					anim.SetBool("Walk", true);
 				}
 			}
 
 			if (timeBtwShots <= 0) {
 				isAttacking = true;
-				//anim.SetBool("Throw", true);
-				Instantiate (projectile, throwPoint.position, Quaternion.identity);
+				if (DistToPlayer > slashRange){
+					anim.SetBool("Throw", true);
+					Instantiate (projectile, throwPoint.position, Quaternion.identity);
+				}
+				else{
+					anim.SetBool("Attack", true);
+				}
+				
 				timeBtwShots = startTimeBtwShots;
 			} else {
 				timeBtwShots -= Time.deltaTime;
 				isAttacking = false;
-				//anim.SetBool("Throw", false);
+				anim.SetBool("Throw", false);
 			}
 			
-			// if (player.position.x > gameObject.transform.position.x){
-				// gameObject.transform.localScale = new Vector2(scaleX, gameObject.transform.localScale.y);
-			// } else {
-				// gameObject.transform.localScale = new Vector2(scaleX * -1, gameObject.transform.localScale.y);
-			// }
+			if (player.position.x > gameObject.transform.position.x){
+				gameObject.transform.localScale = new Vector2(scaleX * -1, gameObject.transform.localScale.y);
+			} else {
+				gameObject.transform.localScale = new Vector2(scaleX, gameObject.transform.localScale.y);
+			}
 		}
 	}
 
@@ -115,7 +123,9 @@ public class EnemyMoveShoot : MonoBehaviour {
 	}
 
 	//DISPLAY the range of enemy's attack when selected in the Editor
-       void OnDrawGizmosSelected(){
-              Gizmos.DrawWireSphere(transform.position, attackRange);
+    void OnDrawGizmosSelected(){
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+		Gizmos.DrawWireSphere(transform.position, slashRange);
 	}
+	
 }
