@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUpINV_Key6_F2
       objectReference: {fileID: 0}
+    - target: {fileID: 3579581730419614979, guid: 7004eaac94a6ca640af3ef6f19bb6920, type: 3}
+      propertyPath: ItemName
+      value: key6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7004eaac94a6ca640af3ef6f19bb6920, type: 3}
 --- !u!4 &69094951 stripped
