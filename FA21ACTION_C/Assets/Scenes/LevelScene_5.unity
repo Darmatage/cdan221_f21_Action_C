@@ -4156,6 +4156,115 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6468144074489991407, guid: f44742a679c116d4a967f2ccee828481, type: 3}
   m_PrefabInstance: {fileID: 811389520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &816151680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 125.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295857020464242174, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Pst
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Hey
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: When you get your key card folow me
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: I'll take you right down to floor 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: I heard some dude was stomping around the third floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: I think the key is in room 314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: Be careful on the second floor though
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: I heard it's been flooding due to some leak
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384153769326503792, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: So you better be quick when passing through
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428543894201607375, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971620606230259048, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628683421095109990, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_Name
+      value: NPC_chat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899691410799894328, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d2624fda65fab64bb61804809afd686, type: 3}
 --- !u!1001 &830945878
 PrefabInstance:
   m_ObjectHideFlags: 0
