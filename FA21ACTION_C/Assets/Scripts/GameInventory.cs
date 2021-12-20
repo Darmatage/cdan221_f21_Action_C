@@ -160,7 +160,7 @@ public class GameInventory : MonoBehaviour
     //}
 	
 	public void eatCookie(){
-		gameHandler.playerGetHit(CookieHealthBoost * -1);
+		gameHandler.playerGetHeath(CookieHealthBoost);
 		InventoryRemove("cookie");
 	}
 		
@@ -170,7 +170,7 @@ public class GameInventory : MonoBehaviour
 	}
 	
 	public void eatDonut(){
-		gameHandler.playerGetHit(DonutSuperHealthBoost * -1);
+		gameHandler.playerGetHeath(DonutSuperHealthBoost);
 		InventoryRemove("donut");
 	}
 
