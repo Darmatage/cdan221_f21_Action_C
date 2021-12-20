@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DormRoomScenes_Level3/DormRoomScene_3.unity
     guid: a9c01dd3c29dfbe41b849c9dd7ce23a8
   - enabled: 1
-    path: Assets/Scenes/DormRoomScenes_Level3/DormRoomScene_Enemy_3.unity
+    path: Assets/Scenes/DormRoomScenes_Level3/DormRoomScene_Enemy_lvl3_4.unity
     guid: 254bc2a24a9411042a2e1a90f3e2d255
   - enabled: 1
     path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene_Enemy_4.unity
