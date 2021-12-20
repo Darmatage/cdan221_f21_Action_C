@@ -66,6 +66,21 @@ EditorBuildSettings:
     path: Assets/Scenes/DormRoomScenes_Level4/DormRoomScene_4.unity
     guid: 5e9fca91b5786e04289ab5374acdaad9
   - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level2/DormRoomScene_Enemy_lvl2_2.unity
+    guid: d7215eb7befade3429a7c938f67c8c67
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level2/DormRoomScene_Enemy_lvl2_3.unity
+    guid: 1c89a0583ea2fe74c9c04fc130bc7da3
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level2/DormRoomScene_lvl2_2.unity
+    guid: a6f225928b85c634398366e0c00ccba5
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level2/DormRoomScene_lvl2_3.unity
+    guid: bf8cf1527e458b945ab26b5090f91901
+  - enabled: 1
+    path: Assets/Scenes/DormRoomScenes_Level2/DormRoomScene_lvl2_4.unity
+    guid: 44375036853030b43bd7757b01c42e01
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: bb42e5ac7db68ea42867886c68fe6b2e
   - enabled: 1
