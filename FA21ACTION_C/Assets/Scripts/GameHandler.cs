@@ -13,6 +13,12 @@ public class GameHandler : MonoBehaviour {
     public int StartPlayerHealth = 100;
     public GameObject healthText;
 
+	public GameObject fadeBlack;
+	private bool timeToFadeOut = false;
+	private bool timeToFadeIn = false;
+	private float fadeAlpha = 0f;
+	private string sceneName; 
+
     //public static int gotTokens = 0;
     //public GameObject tokensText;
 
@@ -35,10 +41,21 @@ public class GameHandler : MonoBehaviour {
                         sliderVolumeCtrl = sliderTemp.GetComponent<Slider>();
                         sliderVolumeCtrl.value = volumeLevel;
                 }
+				sceneName = SceneManager.GetActiveScene().name; 
+				if ((sceneName == "EndLose") || (sceneName == "End_Win")){
+					fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, 1f);
+					timeToFadeIn = true;
+					fadeBlack.SetActive(true);
+					Debug.Log("End Scene Fade condition is functioning");
+				}
+				else {
+					fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, 0f);
+				}
         }
 
 	void Start(){
 		pauseMenuUI.SetActive(false);
+		fadeBlack.SetActive(false);
 		player = GameObject.FindWithTag("Player");
 		playerHealth = StartPlayerHealth;
 		updateStatsDisplay();       
@@ -52,6 +69,19 @@ public class GameHandler : MonoBehaviour {
 			else{
 				Pause();
 			}
+		}
+	}
+
+	void FixedUpdate(){
+		if (timeToFadeOut){
+			fadeAlpha += 0.005f;
+			fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, fadeAlpha);
+			if (fadeAlpha >= 1f){fadeAlpha=1f;}
+		}
+		else if (timeToFadeIn){
+			fadeAlpha -= 0.005f;
+			fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, fadeAlpha);
+			if (fadeAlpha <= 0f){fadeAlpha=0f;}
 		}
 	}
 
@@ -78,16 +108,20 @@ public class GameHandler : MonoBehaviour {
             // updateStatsDisplay();
       // }
 
-      public void playerGetHit(int damage){
-           if (isDefending == false){
-                  playerHealth -= damage;
-                  updateStatsDisplay();
-                  player.GetComponent<PlayerHurt>().playerHit();
-            }
-           if (playerHealth <= 0){
-                  playerHealth = 0;
-                  playerDies();
-            }
+	public void playerGetHit(int damage){
+		if (isDefending == false){
+			playerHealth -= damage;
+			if (playerHealth >= 0){
+				updateStatsDisplay();
+			}
+			player.GetComponent<PlayerHurt>().playerHit();
+		}
+		if (playerHealth <= 0){
+			playerHealth = 0;
+			playerDies();
+			fadeBlack.SetActive(true);
+			timeToFadeOut = true;
+		}
       }
 
 	public void playerGetHeath(int healthBoost){
@@ -110,13 +144,15 @@ public class GameHandler : MonoBehaviour {
 
       public void playerDies(){
             player.GetComponent<PlayerHurt>().playerDead();
+			player.GetComponent<PlayerMoveAround>().enabled = false;
             StartCoroutine(DeathPause());
       }
 
       IEnumerator DeathPause(){
             //player.GetComponent<PlayerMove>().isAlive = false;
             //player.GetComponent<PlayerJump>().isAlive = false;
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(4f);
+			playerHealth = StartPlayerHealth;
             SceneManager.LoadScene("EndLose");
       }
 
