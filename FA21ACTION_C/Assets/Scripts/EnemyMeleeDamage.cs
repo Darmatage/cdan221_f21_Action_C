@@ -25,7 +25,6 @@ public class EnemyMeleeDamage : MonoBehaviour {
 	void Die(){
 		Instantiate (healthLoot, transform.position, Quaternion.identity);
 		anim.SetBool("isKO", true);
-		//anim.SetTrigger ("KO");
 		GetComponent<Collider2D>().enabled = false;
 		GetComponent<EnemyMoveHit>().enabled = false;
 		//this.enabled = false;
@@ -34,8 +33,6 @@ public class EnemyMeleeDamage : MonoBehaviour {
 
 
 	IEnumerator Death(){
-		//yield return new WaitForSeconds(0.5f);
-		//anim.SetBool("isKO", true);
 		yield return new WaitForSeconds(5f);
 		Debug.Log("You Killed a baddie. You deserve loot!");
 		Destroy(gameObject);
