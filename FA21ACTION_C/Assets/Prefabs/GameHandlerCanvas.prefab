@@ -2410,6 +2410,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: key5_Image
       objectReference: {fileID: 0}
+    - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8449289645740635030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2548,6 +2556,10 @@ PrefabInstance:
     - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: D
       objectReference: {fileID: 0}
     - target: {fileID: 8569918165397382030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_FontData.m_Alignment
@@ -2958,6 +2970,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: S
+      objectReference: {fileID: 0}
     - target: {fileID: 8569918165397382030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 3
@@ -3176,6 +3192,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: key4_Image
       objectReference: {fileID: 0}
+    - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8449289645740635030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3314,6 +3338,14 @@ PrefabInstance:
     - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Name
       value: key6_Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8449289645740635030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Sprite
@@ -3454,6 +3486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: key1_Image
       objectReference: {fileID: 0}
+    - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8449289645740635030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3592,6 +3628,14 @@ PrefabInstance:
     - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Name
       value: key7_Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8449289645740635030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Sprite
@@ -3732,6 +3776,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: key3_Image
       objectReference: {fileID: 0}
+    - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8449289645740635030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3870,6 +3922,10 @@ PrefabInstance:
     - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: C
       objectReference: {fileID: 0}
     - target: {fileID: 8569918165397382030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_FontData.m_Alignment
@@ -4088,6 +4144,14 @@ PrefabInstance:
     - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Name
       value: key2_Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 7464813614900764505, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593494554821373201, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
+      propertyPath: m_Text
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8449289645740635030, guid: cc840d8f300d15147b9bf7156a59f094, type: 3}
       propertyPath: m_Sprite
