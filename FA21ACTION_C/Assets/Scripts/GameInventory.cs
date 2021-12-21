@@ -20,7 +20,7 @@ public class GameInventory : MonoBehaviour
     public static bool key4bool = false;
     public static bool key5bool = false;
     public static bool key6bool = false;
-    //public static bool key7bool = false;
+    public static bool key7bool = false;
     //public static bool key8bool = false;
 	
 	//public static int cookies = 0;
@@ -44,7 +44,7 @@ public class GameInventory : MonoBehaviour
     public GameObject key4image;
     public GameObject key5image;
     public GameObject key6image;
-	//public GameObject key7image;
+	public GameObject key7image;
     //public GameObject key8image;
 	
 	private GameHandler gameHandler;
@@ -67,7 +67,7 @@ public class GameInventory : MonoBehaviour
         key4image.SetActive(false);
         key5image.SetActive(false);
         key6image.SetActive(false);	
-		//key7image.SetActive(false);
+		key7image.SetActive(false);
         //key8image.SetActive(false);
 
         InventoryDisplay();
@@ -93,7 +93,7 @@ public class GameInventory : MonoBehaviour
 		if (key4bool == true) { key4image.SetActive(true); } else { key4image.SetActive(false); }
 		if (key5bool == true) { key5image.SetActive(true); } else { key5image.SetActive(false); }
         if (key6bool == true) { key6image.SetActive(true); } else { key6image.SetActive(false); }
-		//if (key7bool == true) { key7image.SetActive(true); } else { key7image.SetActive(false); }
+		if (key7bool == true) { key7image.SetActive(true); } else { key7image.SetActive(false); }
 		//if (key8bool == true) { key8image.SetActive(true); } else { key8image.SetActive(false); }
 
 
@@ -120,7 +120,7 @@ public class GameInventory : MonoBehaviour
 		else if (foundItemName == "key4") { key4bool = true; }
         else if (foundItemName == "key5") { key5bool = true; }
 		else if (foundItemName == "key6") { key6bool = true; }
-        //else if (foundItemName == "key7") { key7bool = true; }
+        else if (foundItemName == "key7") { key7bool = true; }
 		//else if (foundItemName == "key8") { key8bool = true; }
         InventoryDisplay();
     }
@@ -192,6 +192,8 @@ public class GameInventory : MonoBehaviour
 		else if (LockedKey == "key4"){ if (key4bool){return true;} else {return false;}}
 		else if (LockedKey == "key5"){ if (key5bool){return true;} else {return false;}}
 		else if (LockedKey == "key6"){ if (key6bool){return true;} else {return false;}}
+		else if (LockedKey == "key7"){ if (key7bool){return true;} else {return false;}}
+		//else if (LockedKey == "key8"){ if (key8bool){return true;} else {return false;}}
 		else {return false;}
 	}
 	

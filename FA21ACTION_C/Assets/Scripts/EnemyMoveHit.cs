@@ -12,18 +12,19 @@ public class EnemyMoveHit : MonoBehaviour {
 	public bool canAttack = false;
 	public float attackTimer = 0;
 
-	public Vector3 offsetAttack ;
-	public float pushBackAmt = 3;
+	public Vector3 offsetAttack;
+	public float pushBackAmt = 2;
 
 	public int EnemyLives = 3;
 	private Renderer rend;
 	private GameHandler gameHandler;
 
-	public float attackRange = 10;
+	public float attackRange = 8;
 
-	public float scaleX; 
-
+	private float scaleX; 
+	public bool isDead = false; 
 	public bool isCatboy = false;
+
 
 	void Start () {
 		rend = GetComponentInChildren<Renderer> ();
@@ -44,15 +45,27 @@ public class EnemyMoveHit : MonoBehaviour {
 	void Update () {
 		float DistToPlayer = Vector3.Distance(transform.position, target.position);
 
-		if ((target != null) && (DistToPlayer <= attackRange)){
+		if ((target != null) && (DistToPlayer <= attackRange) && (isDead == false)){
 			//Vector3 offsetAttack = new Vector3 (0.5f, 0.5f, 0f);
 			transform.position = Vector2.MoveTowards (transform.position, target.position + offsetAttack, speed * Time.deltaTime);
 			//if enemy is passing through colliders, change transform.position to rigidbody.addforce
 			anim.SetBool("Walk", true);
 			if (target.position.x > gameObject.transform.position.x){
 				gameObject.transform.localScale = new Vector2(scaleX, gameObject.transform.localScale.y);
+				if ((canAttack)&&(isCatboy)){
+					//transform.position = new Vector2(transform.position.x +1, transform.position.y);
+					Vector2 shift = new Vector2(transform.position.x + 0.5f, transform.position.y);
+					Vector2 pos = Vector2.Lerp ((Vector2)transform.position, (Vector2)shift, Time.fixedDeltaTime);
+					transform.position = new Vector2 (pos.x, pos.y);
+					}
 			} else {
 				gameObject.transform.localScale = new Vector2(scaleX * -1, gameObject.transform.localScale.y);
+				if ((canAttack)&&(isCatboy)){
+					//transform.position = new Vector2(transform.position.x -1, transform.position.y);
+					Vector2 shift = new Vector2(transform.position.x - 0.5f, transform.position.y);
+					Vector2 pos = Vector2.Lerp ((Vector2)transform.position, (Vector2)shift, Time.fixedDeltaTime);
+					transform.position = new Vector2 (pos.x, pos.y);
+					}
 			}
 		}
 		else{
@@ -63,47 +76,70 @@ public class EnemyMoveHit : MonoBehaviour {
 	void FixedUpdate () {
 		if(canAttack) {
 			attackTimer += 0.01f;
-		if(attackTimer >= damageRate ) {
-			//anim.SetBool("Attack", true);
-            gameHandler.playerGetHit(damage);
-            Debug.Log("I'm Attacking!");
-            attackTimer = 0;
-			float pushBack = 0;
-				if (target.position.x > gameObject.transform.position.x){
-					pushBack = pushBackAmt;
+			if(attackTimer >= damageRate ) {
+				anim.SetTrigger("Attack");
+				gameHandler.playerGetHit(damage);
+				//Debug.Log("I'm Attacking!");
+				attackTimer = 0;
+				
+				float pushBack = 0;
+				if (isCatboy == false){
+					if (target.position.x > gameObject.transform.position.x){
+						pushBack = pushBackAmt;
+					}
+					else {
+						pushBack = pushBackAmt *-1;
+					}
+					target.position = new Vector3(target.position.x + pushBack, target.position.y + 1, 0);
 				}
-				else {
-					pushBack = pushBackAmt *-1;
-				}
-					target.position = new Vector3(transform.position.x + pushBack, transform.position.y + 1, 0);
 			}
 		}
 	}
 
+	//student fighters 
 	public void OnCollisionStay2D(Collision2D collision){
-              if (collision.gameObject.tag == "Player") {
-                     anim.SetBool("Attack", true);
-                     canAttack = true;
-                     rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
-                     StartCoroutine(ResetColor());
-              }
-       }
+		if (collision.gameObject.tag == "Player") {
+			anim.SetBool("Attack", true);
+			canAttack = true;
+			//rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
+			//StartCoroutine(ResetColor());
+		}
+	}
 
-       public void OnCollisionExit2D(Collision2D collision){
-              if (collision.gameObject.tag == "Player") {
-                     anim.SetBool("Attack", false);
-                     Debug.Log("Attack stopped");
-                     canAttack = false;
-              }
-       }
+	public void OnCollisionExit2D(Collision2D collision){
+		if (collision.gameObject.tag == "Player") {
+			anim.SetBool("Attack", false);
+			//Debug.Log("Attack stopped");
+			canAttack = false;
+		}
+	}
 
-       IEnumerator ResetColor(){
-              yield return new WaitForSeconds(0.5f);
-              rend.material.color = Color.white;
-       }
+	//RA fighter
+	public void OnTriggerStay2D(Collider2D collision){
+		if (collision.gameObject.tag == "Player") {
+			//anim.SetBool("Attack", true);
+			canAttack = true;
+			//rend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
+			//StartCoroutine(ResetColor());
+		}
+	}
+
+	public void OnTriggerExit2D(Collider2D collision){
+		if (collision.gameObject.tag == "Player") {
+			//anim.SetBool("Attack", false);
+			//Debug.Log("Attack stopped");
+			canAttack = false;
+		}
+	}
+
+
+	IEnumerator ResetColor(){
+		yield return new WaitForSeconds(0.5f);
+		rend.material.color = Color.white;
+	}
 
        //DISPLAY the range of enemy's attack when selected in the Editor
-       void OnDrawGizmosSelected(){
-              Gizmos.DrawWireSphere(transform.position, attackRange);
-       }
+	void OnDrawGizmosSelected(){
+		Gizmos.DrawWireSphere(transform.position, attackRange);
+	}
 }

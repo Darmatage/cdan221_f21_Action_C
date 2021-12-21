@@ -547,6 +547,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 9139124809524154126, guid: e817955d68605b044b5aa7c17d8c53e5, type: 3}
+      propertyPath: healthLoot
+      value: 
+      objectReference: {fileID: 2440967011859164801, guid: 5966d4f849c9c79498fa118698239fdb, type: 3}
     - target: {fileID: 9139124809524154127, guid: e817955d68605b044b5aa7c17d8c53e5, type: 3}
       propertyPath: m_Name
       value: EnemyD_boss
@@ -1107,7 +1111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: LockedKey
-      value: key6
+      value: key7
       objectReference: {fileID: 0}
     - target: {fileID: 1356222025969938274, guid: f44742a679c116d4a967f2ccee828481, type: 3}
       propertyPath: NextLevel

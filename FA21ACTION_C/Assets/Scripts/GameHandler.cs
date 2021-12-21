@@ -9,7 +9,7 @@ using UnityEngine.Audio;
 public class GameHandler : MonoBehaviour {
 
 	private GameObject player;
-    public static int playerHealth;
+    public static int playerHealth = 100;
     public int StartPlayerHealth = 100;
     public GameObject healthText;
 
@@ -34,30 +34,30 @@ public class GameHandler : MonoBehaviour {
         private Slider sliderVolumeCtrl;
 
 
-        void Awake (){
-                SetLevel (volumeLevel);
-                GameObject sliderTemp = GameObject.FindWithTag("PauseMenuSlider");
-                if (sliderTemp != null){
-                        sliderVolumeCtrl = sliderTemp.GetComponent<Slider>();
-                        sliderVolumeCtrl.value = volumeLevel;
-                }
-				sceneName = SceneManager.GetActiveScene().name; 
-				if ((sceneName == "EndLose") || (sceneName == "End_Win")){
-					fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, 1f);
-					timeToFadeIn = true;
-					fadeBlack.SetActive(true);
-					Debug.Log("End Scene Fade condition is functioning");
-				}
-				else {
-					fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, 0f);
-				}
-        }
+	void Awake (){
+		SetLevel (volumeLevel);
+		GameObject sliderTemp = GameObject.FindWithTag("PauseMenuSlider");
+		if (sliderTemp != null){
+			sliderVolumeCtrl = sliderTemp.GetComponent<Slider>();
+			sliderVolumeCtrl.value = volumeLevel;
+		}
+		sceneName = SceneManager.GetActiveScene().name; 
+		if ((sceneName == "EndLose") || (sceneName == "End_Win")){
+			fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, 1f);
+			//StartCoroutine(FadedIn());
+		}
+		else {
+			fadeBlack.GetComponent<Renderer>().material.color = new Color(2.55f, 2.55f, 2.55f, 0f);
+		}
+	}
 
 	void Start(){
 		pauseMenuUI.SetActive(false);
 		fadeBlack.SetActive(false);
 		player = GameObject.FindWithTag("Player");
-		playerHealth = StartPlayerHealth;
+		if (sceneName=="MainMenu"){
+			playerHealth = StartPlayerHealth;
+		}
 		updateStatsDisplay();       
 	}
 
@@ -177,4 +177,13 @@ public class GameHandler : MonoBehaviour {
       public void Credits() {
             SceneManager.LoadScene("Credits");
       }
+	  
+	  
+	IEnumerator FadedIn(){
+		fadeBlack.SetActive(true);
+		yield return new WaitForSeconds(2f);
+		timeToFadeIn = true;
+		//Debug.Log("End Scene Fading");
+	}
+	  
 }

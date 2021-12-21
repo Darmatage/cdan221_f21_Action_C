@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3579581730419614979}
   - component: {fileID: 3757419585245264923}
   m_Layer: 0
-  m_Name: PickUpINV_Key1_f7
+  m_Name: PickUpINV_Key1_F8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

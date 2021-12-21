@@ -11,6 +11,7 @@ public class EnemyMeleeDamage : MonoBehaviour {
 	
 	private float currentAlpha = 1f;
 	private Renderer rend;
+	private Color startColor;
 	
 	public bool isBoss = false;
 
@@ -18,6 +19,7 @@ public class EnemyMeleeDamage : MonoBehaviour {
 		currentHealth = maxHealth;
 		anim = gameObject.GetComponentInChildren<Animator>();
 		rend = GetComponentInChildren<Renderer> ();
+		startColor = rend.material.color;
 	}
 
 	public void Update(){
@@ -46,6 +48,7 @@ public class EnemyMeleeDamage : MonoBehaviour {
 		anim.SetBool("isKO", true);
 		GetComponent<Collider2D>().enabled = false;
 		if (isBoss == false){
+			GetComponent<EnemyMoveHit>().isDead = true;
 			GetComponent<EnemyMoveHit>().enabled = false;
 		}
 		else {
@@ -55,7 +58,6 @@ public class EnemyMeleeDamage : MonoBehaviour {
 		StartCoroutine(Death());
 	}
 
-
 	IEnumerator Death(){
 		yield return new WaitForSeconds(5f);
 		Debug.Log("You Killed a baddie. You deserve loot!");
@@ -63,12 +65,11 @@ public class EnemyMeleeDamage : MonoBehaviour {
 	}
 
 	IEnumerator HitEnemy(){
-              // color values are R, G, B, and alpha, each divided by 100
-              rend.material.color = new Color(2.55f, 1f, 1f, currentAlpha);
-              yield return new WaitForSeconds(0.5f);
-              //rend.material.color = Color.white;
-			  rend.material.color = new Color(2.55f, 2.55f, 2.55f, currentAlpha);
+		// color values are R, G, B, and alpha, each divided by 100
+		rend.material.color = new Color(2.5f, 1f, 1f, currentAlpha);
+		yield return new WaitForSeconds(0.5f);
+		//rend.material.color = Color.white;
+		rend.material.color = new Color(startColor.r, startColor.g, startColor.b, currentAlpha);
 	}
-
 
 }

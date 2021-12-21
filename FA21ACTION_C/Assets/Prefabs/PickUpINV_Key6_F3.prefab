@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4139285837310814400}
   - component: {fileID: 4060392011494864210}
   - component: {fileID: 3579581730419614979}
-  - component: {fileID: 4914965569154008540}
+  - component: {fileID: 7972650219344887183}
   m_Layer: 0
-  m_Name: PickUpINV_Key3_F5
+  m_Name: PickUpINV_Key6_F3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInventory: {fileID: 0}
-  ItemName: key3
---- !u!114 &4914965569154008540
+  ItemName: key6
+--- !u!114 &7972650219344887183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 95332770515650098}
   - component: {fileID: 6961805349987392563}
-  - component: {fileID: 854276992501405329}
+  - component: {fileID: 4691901333681838351}
   m_Layer: 0
   m_Name: pickup_art
   m_TagString: Untagged
@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1000
-  m_Sprite: {fileID: 7245704156436003570, guid: fccc1c2a56a0bd347b53d953fd0d0c35, type: 3}
+  m_Sprite: {fileID: 8329045943795532576, guid: fccc1c2a56a0bd347b53d953fd0d0c35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -191,7 +191,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &854276992501405329
+--- !u!95 &4691901333681838351
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -201,7 +201,7 @@ Animator:
   m_GameObject: {fileID: 4414086750871423196}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d1cd9d1a8d2967140aaba7c5b4ac2bed, type: 2}
+  m_Controller: {fileID: 9100000, guid: 920c5e0f2e8ff994ea9bbef0490a1c40, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
